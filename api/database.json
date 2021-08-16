@@ -1,0 +1,51 @@
+{
+    "penPals": [
+        {
+            "id": 1,
+            "name": "Mark Twain",
+            "email": "mark@mark.com"
+        },
+        {
+            "id": 2,
+            "name": "Maya Angelou",
+            "email": "maya@maya.com"
+        },
+        {
+            "id": 3,
+            "name": "Grace Hopper",
+            "email": "grace@grace.com"
+        }
+    ],
+    "topics": [
+        {
+            "id": 1,
+            "name": "Business"
+        },
+        {
+            "id": 2,
+            "name": "Friendly"
+        },
+        {
+            "id": 3,
+            "name": "Family"
+        },
+        {
+            "id": 4,
+            "name": "Congratulations"
+        },
+        {
+            "id": 5,
+            "name": "Condolences"
+        }
+    ],
+    "letters": [
+      {
+        "letterBody": "blah blah blah blah blah blah blah",
+        "authorId": 1,
+        "recipientId": 3,
+        "topicId": 2,
+        "timestamp": "8/16/2021",
+        "id": 1
+      }
+    ]
+  }
