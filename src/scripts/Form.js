@@ -46,11 +46,11 @@ const mainContainer = document.querySelector("#container")
 mainContainer.addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "sendLetter") {
         // Get what the user typed into the form fields
-        const userAuthor = document.querySelector("option[name='author']").value
+        const userAuthor = document.querySelector("#authors__dropdown").value
         const userLetterBody = document.querySelector("textarea[name='letter']").value
         const userTopic = document.querySelector("input[name='topic']:checked").value
         console.log(userTopic)
-        const userRecipient = document.querySelector("option[name='recipient']").value
+        const userRecipient = document.querySelector("#recipients__dropdown").value
 
         // Make an object out of the user input
         const dataToSendToAPI = {
