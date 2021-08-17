@@ -48,7 +48,7 @@ mainContainer.addEventListener("click", clickEvent => {
         // Get what the user typed into the form fields
         const userAuthor = document.querySelector("option[name='author']").value
         const userLetterBody = document.querySelector("textarea[name='letter']").value
-        const userTopic = document.querySelector("input[name='topic']").value
+        const userTopic = document.querySelector("input[name='topic']:checked").value
         console.log(userTopic)
         const userRecipient = document.querySelector("option[name='recipient']").value
 
