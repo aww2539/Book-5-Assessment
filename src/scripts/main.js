@@ -18,4 +18,11 @@ const renderHTML = () => {
         })
 }
 
+mainContainer.addEventListener(
+    "stateChanged",
+    customEvent => {
+        renderHTML()
+    }
+)
+
 renderHTML()

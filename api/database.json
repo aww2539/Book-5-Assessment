@@ -1,51 +1,107 @@
 {
-    "penPals": [
-        {
-            "id": 1,
-            "name": "Mark Twain",
-            "email": "mark@mark.com"
-        },
-        {
-            "id": 2,
-            "name": "Maya Angelou",
-            "email": "maya@maya.com"
-        },
-        {
-            "id": 3,
-            "name": "Grace Hopper",
-            "email": "grace@grace.com"
-        }
-    ],
-    "topics": [
-        {
-            "id": 1,
-            "name": "Business"
-        },
-        {
-            "id": 2,
-            "name": "Friendly"
-        },
-        {
-            "id": 3,
-            "name": "Family"
-        },
-        {
-            "id": 4,
-            "name": "Congratulations"
-        },
-        {
-            "id": 5,
-            "name": "Condolences"
-        }
-    ],
-    "letters": [
-      {
-        "letterBody": "blah blah blah blah blah blah blah",
-        "authorId": 1,
-        "recipientId": 3,
-        "topicId": 2,
-        "timestamp": "8/16/2021",
-        "id": 1
-      }
-    ]
-  }
+  "penPals": [
+    {
+      "id": 1,
+      "name": "Mark Twain",
+      "email": "mark@mark.com"
+    },
+    {
+      "id": 2,
+      "name": "Maya Angelou",
+      "email": "maya@maya.com"
+    },
+    {
+      "id": 3,
+      "name": "Grace Hopper",
+      "email": "grace@grace.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Friendly"
+    },
+    {
+      "id": 3,
+      "name": "Family"
+    },
+    {
+      "id": 4,
+      "name": "Congratulations"
+    },
+    {
+      "id": 5,
+      "name": "Condolences"
+    }
+  ],
+  "letters": [
+    {
+      "letterBody": "blah blah blah blah blah blah blah",
+      "author": "Mark Twain",
+      "recipient": "Grace Hopper",
+      "topic": "Friendly",
+      "timestamp": "8/16/2021",
+      "id": 1
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        test",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:44:19 GMT-0500 (Central Daylight Time)",
+      "id": 2
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        test",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:44:21 GMT-0500 (Central Daylight Time)",
+      "id": 3
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        test",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:46:09 GMT-0500 (Central Daylight Time)",
+      "id": 4
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        test532q35",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:48:42 GMT-0500 (Central Daylight Time)",
+      "id": 5
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        awfdhbsdfbadfg",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:49:16 GMT-0500 (Central Daylight Time)",
+      "id": 6
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        sdghbsdgfmndfhgm",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:50:59 GMT-0500 (Central Daylight Time)",
+      "id": 7
+    },
+    {
+      "author": "Mark Twain",
+      "letterBody": "        asdghadfhnbaedfhsdfh",
+      "topic": "on",
+      "recipient": "Mark Twain",
+      "timestamp": "Tue Aug 17 2021 15:51:10 GMT-0500 (Central Daylight Time)",
+      "id": 8
+    }
+  ]
+}
