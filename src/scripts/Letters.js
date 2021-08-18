@@ -12,7 +12,7 @@ export const Letters = () => {
                 letters.map(
                     (letter) => {
                         return `<li>
-                                    ${letter.letterBody}
+                                    Author: ${letter.author} - Body: ${letter.letterBody} - Topic: ${letter.topic} - Recipient: ${letter.recipient}
                                 </li>`
                 }).join("")
             }
